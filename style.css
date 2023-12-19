@@ -1,0 +1,105 @@
+
+.logo{
+    width: 80px;
+}
+.a1:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px black;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+  a1:hover:after { transform: scaleX(1.5); }
+ .clientfeedback{
+    border: 1px solid #f1f1f1f1;
+    
+ }
+ .clientfeedback h6{
+    position: relative;
+ }
+ .clientfeedback h6::after{
+    content: '';
+    height: 2px;
+    width: 10%;
+    background-color: aqua;
+    position: absolute;
+    left: 45%;
+    top: 100%;
+ }
+ .client-img{
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid #f4f4f4f4;
+    transform: translateY(50%);
+ }
+ .bt1{
+    left: 43%;
+ }
+ .centered-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    /* Add any additional styling for your centered div */
+  }
+  .centered-div,.centered-div2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    /* Add any additional styling for your centered div */
+  }
+  
+ .as{
+    height: 400px;
+ }
+ .carousel-indicators [data-bs-target] {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   text-indent: 0px;
+   border: solid 3px #f1f1f1;
+ }
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   background-color: rgb(187, 59, 59);
+  
+
+ }
+ 
+
+.nav-link {
+   color:darkgray
+   
+}
+.icon1,.icon2,.icon3{
+   width: 3rem;
+   height: 3rem;
+   background-color: antiquewhite;
+  
+  
+}
+.svg-caption{
+
+background-color: #7396b1;
+}
+.rounded img{
+   border-radius: 10%;
+   transform: skewX(12deg);
+}
+.rounded1 img{
+   border-radius: 10%;
+   transform: skewY(12deg);
+}
+
+
+
+
+ 
